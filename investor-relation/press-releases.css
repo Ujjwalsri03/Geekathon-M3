@@ -275,3 +275,14 @@ footer h2 {
 .rectanglebox-right p:hover{
     cursor: pointer;
 }
+
+@media (max-width: 900px){
+    .right{
+        display: none;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -303,3 +303,14 @@ footer h2 {
     font-size: 1.5em;
 }
 
+@media (max-width: 900px){
+    .right{
+        display: none;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+

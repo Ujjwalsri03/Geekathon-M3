@@ -1,41 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /* font-family: sans-serif; */
-    /* font-feature-settings: "liga", "kern"; */
-    /* text-rendering: optimizelegibility; */
-    /* font-family: 'Roboto', sans-serif; */
-    position: relative;
-    /* padding-top: 68px; */
-    font-family: Arial, sans-serif;
+body {
+  /* font-family: sans-serif; */
+  /* font-feature-settings: "liga", "kern"; */
+  /* text-rendering: optimizelegibility; */
+  /* font-family: 'Roboto', sans-serif; */
+  position: relative;
+  /* padding-top: 68px; */
+  font-family: Arial, sans-serif;
 }
 
-.container{
-    /* position: relative; */
+.container {
+  /* position: relative; */
 }
 
-.navbar{
-    /* border: 1px solid black; */
-    padding: 15px 20px;
-    position: fixed;
-    top: 0;
-    /* left: 0; */
-    background-color: white;
-    width: 100%;
-    /* min-height: 68px; */
-    z-index: 1000;
+.navbar {
+  /* border: 1px solid black; */
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  background-color: white;
+  width: 100%;
+  /* min-height: 68px; */
+  z-index: 1000;
 }
 
 /* .section{
     margin-top: 68px;
 } */
 
-.product-info{
-    /* margin-top: 68px; */
+.product-info {
+  /* margin-top: 68px; */
 }
 
 /* img{
@@ -43,227 +43,238 @@ body{
 } */
 
 .justdial-logo {
-    min-height: 37px;
-    width: 110px;
+  min-height: 37px;
+  width: 110px;
 }
 
 .justdial-logo {
-    background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg);
-    display: inline-block;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg);
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.field input{
-    /* width: 10%; */
-    width: 130px;
-    min-height: 26px;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
+.field input {
+  /* width: 10%; */
+  width: 130px;
+  min-height: 26px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
 }
 
-.left{
-    display: flex;
-    gap: 25px;
-    align-items: center;
+.left {
+  display: flex;
+  gap: 25px;
+  align-items: center;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar-nav{
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-nav li
-{
-    position: relative;
+.navbar-nav li {
+  position: relative;
 }
 
-.navbar-nav a{
-    display: block;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.3s;
-    padding: 10px 15px;
+.navbar-nav a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+  padding: 10px 15px;
 }
 
 .navbar-nav a:hover {
-    background-color: #ddd;
-    cursor: pointer;
+  background-color: #ddd;
+  cursor: pointer;
 }
 
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f8f8f8;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: white;
+  display: block;
+  background-color: white;
 }
 
 .navbar-nav > li > a:active {
-    color: blue;
+  color: blue;
 }
 
-.right{
-    margin-right: 4%;
-    font-weight: 600;
+.right {
+  margin-right: 4%;
+  font-weight: 600;
 }
 
 /* image part css */
 
 /* here I can do it with two ways, either by setting image class to position relative and make its child class that is banner-heading to position absolute so and give some top bottom etc property to it so that it gets attached to the parent image class otherwise give padding to image class which is a background image so by giving padding the content under it started to appear. It is happening because the navbar is fixed which sets the out from the flow of the page so the elements below it starts to take its place which is fixed and gets above the plane and other elements below it takes it place. */
 
-.image{
-    background-image: url("https://akam.cdn.jdmagicbox.com/images/icontent/cms/board_member_banner.png");
-    height: 330px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    /* position: relative; */
-    /* padding: 8%; */
-    padding: 12% 40%;
+.image {
+  background-image: url("https://akam.cdn.jdmagicbox.com/images/icontent/cms/board_member_banner.png");
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* position: relative; */
+  /* padding: 8%; */
+  padding: 12% 40%;
 }
 
-.banner-heading{
-    /* position: absolute; */
-    /* top: 100px; */
-    /* top: 170px; */
-    /* left:  */
-    /* margin-left: auto;
+.banner-heading {
+  /* position: absolute; */
+  /* top: 100px; */
+  /* top: 170px; */
+  /* left:  */
+  /* margin-left: auto;
     margin-right: auto; */
-    font-size: 1.9rem;
-    font-weight: 700;
-    color: white;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: white;
 }
 
 /* boxes part css */
 
-.box{
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 3% 3%;
-    margin-bottom: 2%;
-    border-radius: 10px;
-    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.07);
-    border: solid 2px #f2f2f2;
+.box {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 3% 3%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.07);
+  border: solid 2px #f2f2f2;
 }
 
-.dark{
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 7px;
+.dark {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 7px;
 }
 
-.upper i{
-    font-size: 1.1rem;
-    font-weight: 500;
+.upper i {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-.lower{
-    font-size: 15px;
+.lower {
+  font-size: 15px;
 }
 
-.read-more{
-    font-size: 15px;
-    font-weight: 600;
-    color: #0070cc;
+.read-more {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0070cc;
 }
 
-.read-more:hover{
-    cursor: pointer;
+.read-more:hover {
+  cursor: pointer;
 }
 
-.boxes{
-    padding: 6% 5%;
+.boxes {
+  padding: 6% 5%;
 }
 
 /* footer part css */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f8f8f8;
-    padding: 20px;
-    padding-bottom: 80px;
-    border-top: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 20px;
+  padding-bottom: 80px;
+  border-top: 1px solid #e8e8e8;
 }
 
 .footer-section {
-    flex: 1;
-    padding: 20px;
-    border-bottom: 1px solid #e8e8e8;
+  flex: 1;
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
-.footer-section h2, .footer-section h3 {
-    margin-bottom: 20px;
+.footer-section h2,
+.footer-section h3 {
+  margin-bottom: 20px;
 }
 
 .footer-links {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-link {
-    flex: 1 1 50%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .footer-link .icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .footer-link a {
-    text-decoration: none;
-    color: black;
-    /* font-size: 20px; */
-    /* font-weight: 600; */
+  text-decoration: none;
+  color: black;
+  /* font-size: 20px; */
+  /* font-weight: 600; */
 }
 
 .social-links {
-    display: flex;
-    justify-content: flex-start;
-    /* justify-content: space-between; */
-    margin-bottom: 20px;
-    column-gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+  column-gap: 10px;
 }
 
 .social-links a {
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-    font-size: 24px;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  font-size: 24px;
 }
 
-.last{
-    font-size: 20px;
-    font-weight: 600;
+.last {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 footer p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 footer h3 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 footer h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+
+@media (max-width: 900px) {
+  .right {
+    display: none;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
