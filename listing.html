@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Just Dial</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar flex justify-between items-center">
+            <div class="nav flex justify-between items-center w-[100%] px-6 mx-auto">
+                <div class="left flex justify-center items-center">
+                    <img class="logo" src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg"
+                        alt="jd-logo">
+                    <ul class="nav-links">
+                        <li class="inline-block mx-2 ml-4" id=""><a href="">Success Stories</a></li>
+                        <li class="inline-block mx-2"><a href="#">List Your Business</a></li>
+                        <li class="inline-block mx-2"><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <ul class="flex justify-center items-center">
+                    <li class="phone inline-block mx-2">
+                        <i class="fas fa-phone"></i> <span>88888 88888</span>
+                    </li>
+                    <li class="login inline-block mx-2">
+                        Have an Account? <a class="underline" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="hero w-100 px-8 py-2" id="hero">
+            <ul class="page-navigation text-xs">
+                <li class="inline-block">Home</li>
+                <li class="inline-block font-normal"><i class="fa-solid fa-angle-right"></i></li>
+                <li class="inline-block font-normal">Free Business Listing</li>
+            </ul>
+            <div class="hero-main flex justify-between items-center">
+                <div class="w-8/12">
+                    <h1 class="font-bold text-4xl">List Your Business <span>for Free</span></h1>
+                    <h3 class="mt-2">with India's No. 1 Local Search Engine</h3>
+                    <div
+                        class="call-to-action w-[70%] mt-10 border-2 border-solid border-black rounded-md flex justify-between">
+                        <div class="flex justify-center items-center">
+                            <span class="flag m-4"></span>
+                            <span>+91</span>
+                            <input class="py-3 px-3 outline-none" type="text" name="phone"
+                                placeholder="Enter Mobie No." />
+                        </div>
+                        <button class="py-3 px-3 m-1 rounded-md" type="submit">Start Now <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                    <ul class="hero-list mt-10">
+                        <li class="mt-3">Get Discovered and Create Your Online Business</li>
+                        <li class="mt-3">Respond to Customer Reviews and Questions</li>
+                        <li class="mt-3">Showcase Your Product and Service Offerings</li>
+                    </ul>
+
+                    <p class="terms text-xs mt-12">By continuing, you agree to our <span class="underline">Terms of
+                            Use</span>, <span class="underline">Privacy</span> &
+                        <span class="underline">Infringement Policy</span>
+                    </p>
+                </div>
+                <div class="w-4/12">
+                    <img width="573" height="523"
+                        src="https://www.justdial.com/Free-Listing/_next/image?url=http%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Fman_new_2x.png&w=1200&q=75"
+                        alt="man">
+                </div>
+            </div>
+        </section>
+        <section class="success-stories w-100 px-8 py-10" id="success-stories">
+            <div class="flex justify-between items-center">
+                <div class="w-3/12 flex flex-col heading-content">
+                    <span class="quotes"></span>
+                    <h3 class="font-bold text-2xl pt-10">Success Stories</h3>
+                    <h3 class="font-thin text-xl">5.4 Lakh+ Advertisers</h3>
+                    <button class="py-2 px-2 rounded-md mt-10" id="see-stories">See All Stories</button>
+                </div>
+                <div class="ml-40 videos grid grid-cols-3 gap-5">
+                    <div class="card relative rounded-md mr-5 w-75" style="background-color: #fff3f7;">
+                        <img class="p-1" height="230"
+                            src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fimg.jdmagicbox.com%2Fclient_videos%2FBangalore%2Fbangalore_rajesh-chhabria_1713166740.jpg&w=640&q=75"
+                            alt="video-thumb">
+                        <span class="play absolute top-60 left-3"></span>
+                        <div class="card-content p-4 flex flex-col justify-between">
+                            <div class="pt-4 top-content">
+                                <h3 class="text-lg font-bold">Rajesh Chhabria</h3>
+                                <h3 class="text-md font-normal">Chhabria and Sons</h3>
+                                <h4 class="text-md font-thin">Designer Tile Dealers</h4>
+                            </div>
+                            <div class="bottom-content">
+                                <h3 class="text-md font-normal italic">Customer since 12 years</h3>
+                                <a class="text-sm font-thin">visit Business</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card relative rounded-md mr-5 w-75" style="background-color: #def7ff;">
+                        <img class="p-1" height="230"
+                            src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fimg.jdmagicbox.com%2Fclient_videos%2FBangalore%2Fbangalore_varshini_1713165848.jpg&w=640&q=75"
+                            alt="video-thumb">
+                        <span class="play absolute top-60 left-3"></span>
+                        <div class="card-content p-4 flex flex-col justify-between">
+                            <div class="pt-4 top-content">
+                                <h3 class="text-lg font-bold">Rajesh Chhabria</h3>
+                                <h3 class="text-md font-normal">Chhabria and Sons</h3>
+                                <h4 class="text-md font-thin">Designer Tile Dealers</h4>
+                            </div>
+                            <div class="bottom-content">
+                                <h3 class="text-md font-normal italic">Customer since 12 years</h3>
+                                <a class="text-sm font-thin">visit Business</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card relative rounded-md mr-5 w-75" style="background-color: #eff1fb;">
+                        <img class="p-1" height="230"
+                            src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fimg.jdmagicbox.com%2Fclient_videos%2FKolkata%2Fkolkata_gourab-neogi_1712841940.jpg&w=640&q=75"
+                            alt="video-thumb">
+                        <span class="play absolute top-60 left-3"></span>
+                        <div class="card-content p-4 flex flex-col justify-between">
+                            <div class="pt-4 top-content">
+                                <h3 class="text-lg font-bold">Rajesh Chhabria</h3>
+                                <h3 class="text-md font-normal">Chhabria and Sons</h3>
+                                <h4 class="text-md font-thin">Designer Tile Dealers</h4>
+                            </div>
+                            <div class="bottom-content">
+                                <h3 class="text-md font-normal italic">Customer since 12 years</h3>
+                                <a class="text-sm font-thin">visit Business</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps w-full px-8 py-10" id="steps">
+            <h1 class="text-2xl font-bold">Get a FREE Business Listing in 3 Simple Steps</h1>
+            <ul class="pt-10 flex items-start justify-between">
+                <li class="w-52 h-[300px] flex flex-col justify-between">
+                    <img width="242" height="204"
+                        src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Fcreateaccount%402x.png&w=640&q=75"
+                        alt="">
+                    <div class="pt-8">
+                        <span class="font-thin pt-3">Step 1</span>
+                        <h3 class="font-bold pt-3">Create Account</h3>
+                        <p class="font-thin pt-3">Enter your mobile number to get started</p>
+                    </div>
+                </li>
+                <li><img width="36" height="21" class="arrow-img mt-20 "
+                        src="https://akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/arrowblue@2x.png" alt="">
+                </li>
+                <li class="w-52 h-[300px] flex flex-col justify-between">
+                    <img width="242" height="204"
+                        src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Fenterbusinessdetails%402x.png&w=640&q=75"
+                        alt="">
+                    <div class="pt-8">
+                        <span class="font-thin pt-3">Step 2</span>
+                        <h3 class="font-bold pt-3">Enter Business Details</h3>
+                        <p class="font-thin pt-3">Add name, address, business hours and photos</p>
+                    </div>
+                </li>
+                <li><img width="36" height="21" class="arrow-img mt-20"
+                        src="https://akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/arrowblue@2x.png" alt="">
+                </li>
+                <li class="w-52 h-[300px] flex flex-col justify-between">
+                    <img width="242" height="204"
+                        src="https://www.justdial.com/Free-Listing/_next/image?url=https%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Fselectcat%402x.png&w=640&q=75"
+                        alt="">
+                    <div class="pt-8">
+                        <span class="font-thin pt-3">Step 3</span>
+                        <h3 class="font-bold pt-3">Select Categories</h3>
+                        <p class="font-thin pt-3">Add relevant categories to your free listing page</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="steps w-full px-8 y-10">
+            <h1 class="text-2xl font-bold">Connect with New Customers & Grow Your Business</h1>
+            <div class="info w-full p-4 pt-10">
+                <div class="grid grid-cols-2">
+                    <div class="m-6">
+                        <img width="520" height="517"
+                            src="https://www.justdial.com/Free-Listing/_next/image?url=http%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Ffreebusinesslisting%402x.png&w=1080&q=75"
+                            alt="img">
+                    </div>
+                    <div class="m-10">
+                        <h1 class="text-lg font-bold">FREE BUSINESS LISTING PAGE</h1>
+                        <h3 class="text-lg font-normal py-3">Having a presence on Justdial helps you build trust with
+                            your
+                            potential customers</h3>
+                        <ul>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp Enrich your business details so that
+                                people can
+                                find you online easily</li>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp Increase customer engagement by
+                                responding to
+                                their
+                                reviews and questions</li>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp Upload photos and videos to showcase
+                                your
+                                business
+                                online</li>
+                        </ul>
+                        <h1 class="text-lg font-bold py-3">Register Your Business Today</h1>
+                        <div class="call-to-action w-[70%] mt-10 border-2 border-solid rounded-md flex justify-between">
+                            <div class="flex justify-center items-center">
+                                <span class="flag m-4"></span>
+                                <span>+91</span>
+                                <input class="py-3 px-3 outline-none" type="text" name="phone"
+                                    placeholder="Enter Mobie No." />
+                            </div>
+                            <button class="py-3 px-3" type="submit">Start Now <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info w-full p-4 mt-10">
+                <div class="grid grid-cols-2">
+                    <div class="m-6">
+                        <img width="520" height="517"
+                            src="https://www.justdial.com/Free-Listing/_next/image?url=http%3A%2F%2Fakam.cdn.jdmagicbox.com%2Fimages%2Ficontent%2Flistingbusiness%2Fjustdialads%402x.png&w=1080&q=75"
+                            alt="img">
+                    </div>
+                    <div class="m-10">
+                        <h1 class="text-lg font-bold">JUSTDIAL ADS</h1>
+                        <h3 class="text-lg font-normal py-3">Get prominent display over your competitors and reach out
+                            to more customers.</h3>
+                        <ul>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp Rank higher in search and get more
+                                exposure in front of your potential customers.</li>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp IGet customer details over SMS,
+                                email and push notification</li>
+                            <li class="py-3"><i class="fa-solid fa-check"></i>&nbsp Get full access to competition
+                                trends and analytics dashboard</li>
+                        </ul>
+                        <div class="call-to-action">
+                            <button class="py-3 px-9 rounded-md" type="submit">Start Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="w-full px-8 py-10">
+            <div class="w-ful flex justify-between">
+                <div class="w-3/12">
+                    <h1>Quick Links</h1>
+                    <div class="grid grid-cols-2">
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">About Us</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">Advertise</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Media</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Testimonials</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Feedback</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Business Badge</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Jd Collection</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Client Success Videos</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B India Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <h1>JD Verticals</h1>
+                    <div class="grid grid-cols-5">
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">All India</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">Doctors</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">Bills & Recharge</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li class="text-xs font-thin pt-3"><a href="#">Accommodation</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Investor Relations</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">We're hiring</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Customer Care</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Free Listing</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">What's New</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Report a Bug</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">B2B Sitemap</a></li>
+                            <li class="text-xs font-thin pt-3"><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-info">
+                <div class="text-xs mt-12 font-thin">Copyrights 2008-24.&nbsp;All Rights Reserved.&nbsp;&nbsp;
+                    <a href="https://www.justdial.com/Privacy-Policy?touch=1" class="anchor pl-5">Privacy</a>
+                    &nbsp; | &nbsp;<a href="https://www.justdial.com/Terms-of-Use?touch=1" class="anchor">Terms</a>
+                    &nbsp; | &nbsp;<a href="https://www.justdial.com/Infringement-Policy?touch=1"
+                        class="anchor">Infringement</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

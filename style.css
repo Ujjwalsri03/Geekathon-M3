@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+body {
+    background-color: #e8e8e8;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    height: 80px;
+    border: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    width: 100px;
+    height: 32px;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: #111;
+}
+
+.call-to-action {
+    max-width: 570px;
+}
+
+.call-to-action button, #see-stories {
+    background-color: #0076d7;
+    color: #fff;
+}
+
+.flag {
+    width: 36px;
+    height: 25px;
+    background-image: url(//akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/india_flag.svg);
+}
+
+.hero-list li:before {
+    content: "";
+    width: 26px;
+    height: 19px;
+    background-image: url(//akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/greencheck.svg);
+    background-repeat: no-repeat;
+    padding-right: 17px;
+    position: relative;
+    left: -5px;
+    background-size: 100% 100%;
+}
+
+section {
+    background-color: #fff;
+}
+
+.hero-main h1 span, .login a {
+    color: #0076d7;
+}
+
+.success-stories {
+    background-color: #fffcf4;
+}
+
+.quotes {
+    width: 140px;
+    height: 123px;
+    background-image: url(//akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/quoteleft.svg);
+}
+
+.card-content {
+    min-height: 210px;
+}
+
+.play:after {
+    content: "";
+    background-image: url(//akam.cdn.jdmagicbox.com/images/icontent/listingbusiness/vidplayicon.svg);
+    background-size: 100%;
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.play:before {
+    content: "Play";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #0076d7;
+    border-radius: 6px;
+    color: #0076d7;
+    font-size: 19px;
+    font-weight: 700;
+    width: 0;
+    padding: 5px 0;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.info {
+    background-color: #fffcfa;
+    border-radius: 37px;
+}
+
+.info .call-to-action {
+    border-color: #0076d7;
+}
