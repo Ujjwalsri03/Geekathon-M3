@@ -178,6 +178,11 @@ nav .login {
   font-weight: 550;
 }
 
+.login a {
+  color:white;
+  text-decoration: none;
+}
+
 .search-text {
   margin-right: auto;
   margin-top: 4.2rem;
@@ -1336,7 +1341,7 @@ nav .login {
     padding: 0.5rem;
     margin-left: 0.5rem;
   }
-
+  
   .search-text {
     margin-left: 0.5rem;
     margin-top: 2rem;
