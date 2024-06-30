@@ -81,8 +81,8 @@ section first body */
   height: 100%;
 }
 
-.fb-left img{
-    width: 100%;
+.fb-left img {
+  width: 100%;
 }
 .fb-right h1 {
   font-size: 3rem;
@@ -236,9 +236,9 @@ section first body */
 
 /* Section get free buisness */
 
-.new-business{
-    background-color: #fff;
-    padding-top: 1rem;
+.new-business {
+  background-color: #fff;
+  padding-top: 1rem;
 }
 
 .free-listing-header {
@@ -251,7 +251,6 @@ section first body */
   display: flex;
   justify-content: space-around;
   margin-top: 1em;
-  
 }
 
 .listing-step {
@@ -262,7 +261,6 @@ section first body */
   margin-bottom: 1rem;
 }
 
-
 .step-description {
   margin-bottom: 0.5em;
 }
@@ -271,7 +269,6 @@ section first body */
   width: 100%;
   margin-bottom: 1em;
 }
-
 
 .jd-container {
   max-width: 800px;
@@ -313,9 +310,9 @@ section first body */
   color: #333;
   margin-bottom: 20px;
 }
-.quest-main{
-    background-color: #fff;
-    padding-bottom: 1rem;
+.quest-main {
+  background-color: #fff;
+  padding-bottom: 1rem;
 }
 
 .question {
@@ -325,9 +322,8 @@ section first body */
   border: 1px solid #006eff;
   border-radius: 5px;
   cursor: pointer;
-  margin-left:1rem ;
+  margin-left: 1rem;
   margin-right: 1rem;
-  
 }
 
 .question:hover {
@@ -372,6 +368,68 @@ section first body */
   border-top: 0.1px solid rgb(213, 210, 210);
   display: flex;
   /* flex-wrap: wrap; */
+}
+
+.features-section {
+  background-color: #fff;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  color: #0076d7;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .feature-item h3 {
+    font-size: 1rem;
+  }
+
+  .feature-item p {
+    font-size: 0.9rem;
+  }
 }
 
 .last-footer-container .quick-links {
